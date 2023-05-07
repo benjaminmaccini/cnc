@@ -1,0 +1,6 @@
+# This will be automatically added to your $HOME/.config/cnc/config.yaml on first install
+OPENAI_KEY: MY_KEY
+SMS_SERVER_PORT: 12354
+TWILIO_ACCOUNT_SID: MY_KEY
+TWILIO_KEY: MY_KEY
+BIN_SIZE: 200
