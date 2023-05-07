@@ -31,7 +31,7 @@ install:
 	@echo Make sure to add alias cnc=\$$GOPATH/bin/cnc to your \~/.bashrc. Replacing GOPATH with your own
 
 run-ingress:
-	ngrok http $(yq -r ".SMS_SERVER_PORT" ${CONFIG_DIR}/config.yaml)
+	source utils.sh && run_ingress "${CONFIG_DIR}/config.yaml"
 
 ## Run tests
 test:
